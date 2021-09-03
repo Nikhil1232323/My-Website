@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>My Website</title>
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo">Nikhil Mudaliar</a>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#">Bio</a></li>
+                <li><a href="#">My Work</a></li>
+                <li><a href="#">My Favorite Games</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <section class="banner" id="Home">
+            <img id="img1" src="E:\Girish Photos\18814063_1910984712515586_6839641863818781774_n.jpg">
+            <h1 id="h1">Hi</h1>
+            <br>
+            <h1 id="h2">I Am Nikhil Mudaliar</h1>
+            <br>
+            <h2 id="h3">I am a Master Coder</h2>
+        </section>
+        <script type="text/javascript">
+        window.addEventListener("scroll",function(){
+            var header= document.querySelector("header");
+            header.classList.toggle("sticky",window.scrollY > 0);
+        })
+        </script>
+
+        <section id="Bio">
+            <h1>Bio</h1>
+            <br>
+            <h1 id="h4">Hi</h1>
+            <hr>
+            <p>Hi I am Nikhil Raju Mudaliar I am From Ambernath Maharashtra India I am A Child Coder I make So Many Apps And some Website I like to Reading And I Like to Eat Panner Masala .Apps And Website Link Is given</p>
+            <br>
+            <br>
+           <a href=""><button id="btn1">Apps</button></a> 
+            <br>
+            <br>
+           <a href=""> <button id="btn2">Website</button></a> 
+           <hr>
+        </section>
+    </body>
+</html>
